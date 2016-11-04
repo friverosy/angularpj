@@ -16,6 +16,14 @@
         {{comentario.comentario}} - {{comentario.username}}
       </li>
     </ul>
+<h3>Nuevo Comentario</h3>
+    <ul>
+      <li>
+        <input type="text" ng-model="nuevoComentario.comentario">
+        <input type="text" ng-model="nuevoComentario.username">
+        <button type="button" ng-click="agregarComentario()">agregar</button>
+      </li>
+    </ul>
 
   </body>
 </html>
